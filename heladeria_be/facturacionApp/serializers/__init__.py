@@ -1,0 +1,5 @@
+from facturacionApp.serializers.ventaSerializer import VentaSerializer
+from facturacionApp.serializers.usuarioSerializer import UsuarioSerializer
+from facturacionApp.serializers.clienteSerializer import ClienteSerializer
+from facturacionApp.serializers.productoSerializer import ProductoSerializer
+from facturacionApp.serializers.proveedorSerializer import ProveedorSerializer

@@ -72,6 +72,8 @@ REST_FRAMEWORK = {
         )
 }   
 
+AUTH_USER_MODEL = 'facturacionApp.Usuario'
+
 ROOT_URLCONF = 'projectHeladeria.urls'
 
 TEMPLATES = [
@@ -150,3 +152,6 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+import django_heroku
+django_heroku.settings(locals())
