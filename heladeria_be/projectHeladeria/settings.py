@@ -101,10 +101,10 @@ WSGI_APPLICATION = 'projectHeladeria.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'ddcf3ljghin651',
-        'USER': 'xqchpodcwhuato',
-        'PASSWORD': '8cc627b4fd8ea087cd559107f356e6e7dc4e08d4eb2686a4e8ea520e777e1588',
-        'HOST': 'ec2-3-218-47-9.compute-1.amazonaws.com',
+        'NAME': 'd4bq7r1g297b3t',
+        'USER': 'cohxwitzcgmtlr',
+        'PASSWORD': 'f38801df6bf0dbb46a5d5eadc809798d973846dbca704d6bc33885df32d0552b',
+        'HOST': 'ec2-52-87-123-108.compute-1.amazonaws.com',
         'PORT': '5432',
     }
 }
